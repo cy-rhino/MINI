@@ -16,7 +16,7 @@ Serial2.begin(9600);
 ```
 
 #### Arduino IDE Setup
-- Install [MegaCoreX](https://github.com/MCUdude/MegaCoreX) to boards manager
+- Install [MegaCoreX](https://github.com/MCUdude/MegaCoreX) to Boards Manager
 - Select MegaCoreX > ATmega4808 as Board
 - Select Board connected COM port as Port
 - Select Optiboot (UART0 default pins) as Bootloader
