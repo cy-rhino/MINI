@@ -1,13 +1,13 @@
 # Rhino Mini 4808
 Homemade ATmega4808 Board (Arduino Compatible)
 
-##### Summary
+#### Summary
 - Breadboard oriented minimal design
 - 3 UART ports
 - 1600mil * 700mil 2-Layer PCB
 - Compliant with SparkFun FTDI Basic Breakout
 
-##### Usage
+#### Usage
 The original Serial2 port is used by the 32.768kHz quartz crystal circuit. When using Serial2, the following code must be written.
 ```
 // UART pin swapping
@@ -15,7 +15,7 @@ Serial2.swap(1);
 Serial2.begin(9600);
 ```
 
-##### Arduino IDE Setup
+#### Arduino IDE Setup
 - Install [MegaCoreX](https://github.com/MCUdude/MegaCoreX) to boards manager
 - Select MegaCoreX > ATmega4808 as Board
 - Select Board connected COM port as Port
@@ -24,7 +24,7 @@ Serial2.begin(9600);
 - Select SerialUPDI (57600 baud) as Programmer
 - Other items should be set appropriately
 
-##### Wiring
+#### Wiring
 ```
 To burn the Bootloader:
 +------------+                 +------------+
